@@ -690,6 +690,7 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
 	margin-top: 2em;
 	}
 
+
 /* INTRO */
 .intro {
 	text-align: center; padding: 0 0 1em 0;
@@ -840,15 +841,19 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
 .timeline {
  	position: relative; padding-left: 112px; padding-bottom: 8px;
 	}
-	.timeline h2 {
- 		position: relative; margin-bottom: 2em; font-size: 19px; font-weight: 300; letter-spacing: 1px;
-		}
+		.timeline h2 {
+ 			position: relative; margin-bottom: 2em; font-size: 19px; font-weight: 300; letter-spacing: 1px;
+			}
 		.timeline h2 [class^="icon-"], .timeline h2 [class*=" icon-"], .timeline h2 .fa {
 			display: block; font-size: 28px; position: absolute; top: -27px; left: -112px; width: 86px; line-height: 78px; margin: 0;  z-index: 120;
 			}
 		.timeline h2 [class^="icon-"]:before, .timeline h2 [class*=" icon-"]:before, .timeline h2 i.fa:before {
 			margin:0; 
-			}		
+			}	
+		.timeline h4 {
+			display: inline-block; 
+			}	
+
 .event {
 	position: relative; padding: 26px 32px; margin-bottom: 3em; background: #ffffff; border: 3px solid #EDF1F3; border-radius: 6px;
 	}
@@ -883,6 +888,11 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
 	.event p:before {
 		display: block; content: ""; position: absolute; top: -30px; left: -72px; height: 160%; width: 4px; background: #F4F6F7;
 		}
+		.event a {
+			display: inline-block;
+		}
+		
+}
 
 /* SKILLS */
 .skillset {
