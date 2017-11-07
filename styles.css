@@ -888,9 +888,6 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
 	.event p:before {
 		display: block; content: ""; position: absolute; top: -30px; left: -72px; height: 160%; width: 4px; background: #F4F6F7;
 		}
-		.event a {
-			display: inline-block;
-		}
 		
 }
 
